@@ -1,0 +1,9 @@
+{
+  "testEnvironment": "jsdom",
+  "moduleFileExtensions": ["js", "vue"],
+  "transform": {
+    "\\.js?$": "babel-jest",
+    "\\.vue$": "@vue/vue3-jest"
+  },
+  "modulePathIgnorePatterns": ["node_modules", ".jest-test-results.json"]
+}

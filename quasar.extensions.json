@@ -1,0 +1,25 @@
+{
+  "@quasar/qcalendar": {},
+  "@graymatterf0rge/qx": {
+    "scripts": false,
+    "inlineCriticalCss": false,
+    "inlineCssFromSFC": false
+  },
+  "auto-routing": {
+    "pagesDir": "src/pages",
+    "routePrefix": "",
+    "layoutsDir": "src/layouts",
+    "ignorePattern": "/(^|[/\\])../",
+    "outDir": "src/router/auto-routing",
+    "pagesImportPrefix": "pages/",
+    "generatorConfig": {
+      "nested": true
+    }
+  },
+  "@vueauth/auth": {
+    "authProvider": {
+      "identifier": "firebase",
+      "packageName": "@vueauth/firebase"
+    }
+  }
+}

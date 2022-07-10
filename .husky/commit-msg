@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+# ensure the commit message is properly formatted
+yarn commitlint --edit "$1"
